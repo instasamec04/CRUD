@@ -1,0 +1,98 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 60px;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 958px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: Arial;
+}
+
+.container:first-child {
+  text-align: center;
+}
+
+.auth-form {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  text-align: right;
+}
+
+.field {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+.field:last-child {
+  margin-bottom: 0;
+}
+
+.field > input {
+  border: 0;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.field:last-child > button {
+  padding: 10px;
+  color: #fff;
+  background-color: rgb(69, 7, 27);
+  border: 0;
+  border-radius: 4px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.field:last-child > button:hover {
+  background-color: rgb(71, 4, 27);
+}
+
+.field:last-child {
+  text-align: center;
+}
+
+/* !modal */
+
+#modal-edit {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+#modal-edit-body {
+  width: 500px;
+  height: 200px;
+  background-color: #ffffff;
+  margin: auto;
+  text-align: center;
+}
