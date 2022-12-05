@@ -5,33 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <title>ContactBook</title>
+
+    <title>Document</title>
   </head>
   <body>
-    <!-- add form start -->
-    <h1>Contact Book</h1>
+    <!-- add-form -->
+    <h1>KPI</h1>
     <div class="wrapper">
       <div class="container">
         <div class="contacts">
-          <div class="field">
-            <span>Name</span>
-            <input type="text" id="inp-Name" placeholder="Введите имя" />
-            <br />
-            <span>Surname</span>
-            <input type="text" id="inp-Email" placeholder="Введите Фамилию" />
-            <br />
-            <span>Numbers</span>
-            <input
-              type="text"
-              id="inp-Numbers"
-              placeholder="Введите номер телефона"
-            />
-            <br />
-            <span>ImgUrl</span>
-            <input type="text" id="inp-ImgUrl" placeholder="URL на картинку" />
+          <div class="student__add">
+            <div><h3>ДОБАВЛЕНИЕ СТУДЕНТА</h3></div>
+            <!-- !!!! -->
+            <div class="search-box1">
+              <input
+                type="text"
+                class="search-txt"
+                placeholder="Введите категорию"
+              />
+
+              <a href="" class="search-btn">
+                <img
+                  src="https://images.vexels.com/media/users/3/132068/isolated/preview/f9bb81e576c1a361c61a8c08945b2c48-search-icon.png"
+                  alt=""
+                  width="20px"
+                />
+              </a>
+            </div>
+            <!-- ???? -->
+            <div class="student__add-body">
+              <input type="text" class="section__add_name" placeholder="Имя" />
+              <input
+                type="text"
+                class="section__add_surname"
+                placeholder="Фамилия"
+              />
+              <input
+                type="number"
+                class="section__add_number"
+                placeholder="Номер телефона"
+              />
+              <input
+                type="number"
+                class="section__add_KPI-week"
+                placeholder="показатели недельного KPI"
+              />
+              <input
+                type="number"
+                class="section__add_KPI-month"
+                placeholder="показатели месячного KPI"
+              />
+            </div>
           </div>
-          <div class="field">
-            <button id="btn">Save</button>
+          <div class="student__add_save">
+            <button id="btn-save">SAVE</button>
           </div>
         </div>
       </div>
@@ -39,21 +66,23 @@
     <!-- add form end -->
 
     <!-- list start -->
-    <div id="list"></div>
+    <div class="table">
+      <table>
+        <tr>
+          <th>NAME</th>
+          <th>SURNAME</th>
+          <th>NUMBER</th>
+          <th>KPI WEEK</th>
+          <th>KPI MONTH</th>
+        </tr>
+      </table>
+    </div>
     <!-- list end -->
 
     <!-- modal start -->
-    <div id="modal-edit">
-      <div id="modal-edit-body">
-        <button id="modal-edit-close">X</button>
-        <input type="text" name="" id="" id="inp-edit" />
-        <input type="text" name="" id="" id="inp-edit1" />
-        <input type="text" name="" id="" id="inp-edit2" />
-        <input type="text" name="" id="" id="inp-edit3" />
-        <button id="btn-save">Save</button>
-      </div>
-    </div>
+
     <!-- modal end -->
+
     <script src="./main.js"></script>
   </body>
 </html>

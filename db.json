@@ -1,27 +1,420 @@
 {
-  "TODOS": [
+  "students": [
     {
-      "name": "1312312213",
-      "Email": "2131231231",
-      "Number": "1231221312",
-      "ImgUrl": "3123122312312",
+      "name": "Adilet",
+      "surname": "Alisherov",
+      "number": "0706883840",
+      "week": "100",
+      "month": "100",
+      "id": 1
+    },
+    {
+      "name": "Adilet",
+      "surname": "Alisherov",
+      "number": "00",
+      "week": "00",
+      "month": "00",
+      "id": 2
+    },
+    {
+      "name": "Samat",
+      "surname": "Berdibekov",
+      "number": "000000",
+      "week": "000",
+      "month": "000",
+      "id": 3
+    },
+    {
+      "name": "Mustafa",
+      "surname": "dfvdfbvdf",
+      "number": "78908765678",
+      "week": "67",
+      "month": "67",
+      "id": 4
+    },
+    {
+      "name": "dsfxbs",
+      "surname": "kjnmlknljhkl",
+      "number": "67890989765",
+      "week": "897",
+      "month": "97",
       "id": 5
     },
     {
-      "name": "312321",
-      "Email": "321312",
-      "Number": "321321",
-      "ImgUrl": "321312",
+      "name": "srthgb",
+      "surname": "raegsebgdrg",
+      "number": "345564367",
+      "week": "345",
+      "month": "34534",
       "id": 6
-    }
-  ],
-  "comments": [
+    },
     {
-      "Name": "Samat",
-      "Email": "Berdibekov",
-      "Numbers": "0703783830",
-      "ImgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrhh-2Jy0QFHOU2HPjPIe6QSp4bzuhizTNhHlHjBrgdQ&s",
-      "id": 1
+      "name": "xfgnxfgnxf",
+      "surname": "nxfgnxfgn",
+      "number": "456754565",
+      "week": "454",
+      "month": "5454",
+      "id": 7
+    },
+    {
+      "name": "sdhfsdf",
+      "surname": "srthrtht",
+      "number": "3245324565",
+      "week": "345",
+      "month": "534",
+      "id": 8
+    },
+    {
+      "name": "dnffdhnd",
+      "surname": "djdryhdr",
+      "number": "5465435",
+      "week": "354",
+      "month": "534",
+      "id": 9
+    },
+    {
+      "name": "fdsbsdf",
+      "surname": "bafbasb",
+      "number": "5353435",
+      "week": "5345",
+      "month": "534",
+      "id": 10
+    },
+    {
+      "name": "fdsbsdf",
+      "surname": "bafbasb",
+      "number": "5353435",
+      "week": "5345",
+      "month": "534",
+      "id": 11
+    },
+    {
+      "name": "hehet",
+      "surname": "erherh",
+      "number": "4563634",
+      "week": "34634",
+      "month": "64364",
+      "id": 12
+    },
+    {
+      "name": "werhrtsht",
+      "surname": "hwerhesr",
+      "number": "345355532453",
+      "week": "2352",
+      "month": "5325",
+      "id": 13
+    },
+    {
+      "name": "sdhgesrh",
+      "surname": "haerhserh",
+      "number": "3542324253",
+      "week": "52335",
+      "month": "55323",
+      "id": 14
+    },
+    {
+      "name": "eterstery",
+      "surname": "ertyhesth",
+      "number": "523523523",
+      "week": "532",
+      "month": "5235",
+      "id": 15
+    },
+    {
+      "name": "weryhths",
+      "surname": "rthsrtht",
+      "number": "52523523",
+      "week": "54235",
+      "month": "23235",
+      "id": 16
+    },
+    {
+      "name": "waeyaeheh",
+      "surname": "thsrthtsths",
+      "number": "52352352",
+      "week": "452323",
+      "month": "5235235",
+      "id": 17
+    },
+    {
+      "name": "weryhwrthr",
+      "surname": "hsrtjrtj",
+      "number": "43523432353",
+      "week": "35235",
+      "month": "523523",
+      "id": 18
+    },
+    {
+      "name": "whsthrhdgf",
+      "surname": "serhrsth",
+      "number": "52352352",
+      "week": "5235",
+      "month": "232",
+      "id": 19
+    },
+    {
+      "name": "stnrtn",
+      "surname": "rtndrtndrt",
+      "number": "23423424",
+      "week": "43",
+      "month": "43",
+      "id": 20
+    },
+    {
+      "name": "rdgfjndrytjn",
+      "surname": "ur56uur5",
+      "number": "45745745",
+      "week": "47455",
+      "month": "74",
+      "id": 21
+    },
+    {
+      "name": "w4nhhgfegr",
+      "surname": "herytrhy",
+      "number": "64634",
+      "week": "643634",
+      "month": "46346",
+      "id": 22
+    },
+    {
+      "name": "nhbrgtyhg",
+      "surname": "vdcxbgv ",
+      "number": "63456665",
+      "week": "534",
+      "month": "523",
+      "id": 23
+    },
+    {
+      "name": "eynrgydud",
+      "surname": "rdtnhgjdgf",
+      "number": "534636346",
+      "week": "634",
+      "month": "634",
+      "id": 24
+    },
+    {
+      "name": "rt ntyutbcf",
+      "surname": "nchgfvbncnhg",
+      "number": "645645457",
+      "week": "75457",
+      "month": "7457",
+      "id": 25
+    },
+    {
+      "name": "nhbfnjbnbvbn",
+      "surname": "ngjdfgn",
+      "number": "5655645663",
+      "week": "436",
+      "month": "643",
+      "id": 26
+    },
+    {
+      "name": "wrstjsrtxj",
+      "surname": "rtxjxrj",
+      "number": "45334635",
+      "week": "643",
+      "month": "634",
+      "id": 27
+    },
+    {
+      "name": "wertherh",
+      "surname": "aerhaerheh",
+      "number": "36444335",
+      "week": "523",
+      "month": "523",
+      "id": 28
+    },
+    {
+      "name": "qaehzdrsth",
+      "surname": "jstrdjsrtgh",
+      "number": "34634646",
+      "week": "5643",
+      "month": "634634",
+      "id": 29
+    },
+    {
+      "name": "wserdtjsrtd",
+      "surname": "hrtjdrthjsrt",
+      "number": "63464345",
+      "week": "43534",
+      "month": "433",
+      "id": 30
+    },
+    {
+      "name": "vwerver",
+      "surname": "ververv",
+      "number": "23223",
+      "week": "23",
+      "month": "32",
+      "id": 31
+    },
+    {
+      "name": "frwfdfef",
+      "surname": "vesvarevaerv",
+      "number": "333213312",
+      "week": "213",
+      "month": "32",
+      "id": 32
+    },
+    {
+      "name": "fwvsdfdv",
+      "surname": "sfefebb",
+      "number": "4232323",
+      "week": "233",
+      "month": "323",
+      "id": 33
+    },
+    {
+      "name": "ervsefdcx ",
+      "surname": "dfvvdsfv",
+      "number": "35768743",
+      "week": "322",
+      "month": "789",
+      "id": 34
+    },
+    {
+      "name": "gdhmdfmnxd",
+      "surname": "nzdgn dgng",
+      "number": "45745745",
+      "week": "88",
+      "month": "66",
+      "id": 35
+    },
+    {
+      "name": "setrhsedh",
+      "surname": "tjhsdthdrgr",
+      "number": "4235343524534232",
+      "week": "3423",
+      "month": "4234",
+      "id": 36
+    },
+    {
+      "name": "srthjtyukyuku",
+      "surname": "rstjyrkjsry",
+      "number": "25352352",
+      "week": "542",
+      "month": "532",
+      "id": 37
+    },
+    {
+      "name": "jdrkydtystdyhest",
+      "surname": "setrjdzthdfh",
+      "number": "6563464",
+      "week": "6346",
+      "month": "6346",
+      "id": 38
+    },
+    {
+      "name": "estjrtj",
+      "surname": "jrtdjrdxtj",
+      "number": "36346343",
+      "week": "64",
+      "month": "64",
+      "id": 39
+    },
+    {
+      "name": "wsurjdt",
+      "surname": "drtjrtjh",
+      "number": "64634",
+      "week": "6343",
+      "month": "634",
+      "id": 40
+    },
+    {
+      "name": "rtjrtjrj",
+      "surname": "jrtjxfgj",
+      "number": "634646",
+      "week": "64634",
+      "month": "6464",
+      "id": 41
+    },
+    {
+      "name": "rtjdrjrt",
+      "surname": "tjdrtjdrrd",
+      "number": "6346346",
+      "week": "634",
+      "month": "643",
+      "id": 42
+    },
+    {
+      "name": "edtyjshet",
+      "surname": "yrehshe",
+      "number": "45534534",
+      "week": "453",
+      "month": "545",
+      "id": 43
+    },
+    {
+      "name": "ytdjtyjrt",
+      "surname": "drtjrtjrstj",
+      "number": "4534534",
+      "week": "453534",
+      "month": "53453",
+      "id": 44
+    },
+    {
+      "name": "ektkfyukukuk",
+      "surname": "ykukyukyuk",
+      "number": "98789",
+      "week": "897",
+      "month": "987",
+      "id": 45
+    },
+    {
+      "name": "tl,ltk,tk",
+      "surname": "ktkkmjkkjk",
+      "number": "967967967",
+      "week": "8676",
+      "month": "8678",
+      "id": 46
+    },
+    {
+      "name": "kdjftiygjcf",
+      "surname": "bdchfjkgvhjb",
+      "number": "769878675",
+      "week": "76587",
+      "month": "76578",
+      "id": 47
+    },
+    {
+      "name": "yesyhtujykgui",
+      "surname": "sdrjftkyg",
+      "number": "456874576",
+      "week": "6565",
+      "month": "534876",
+      "id": 48
+    },
+    {
+      "name": "wherjghjthgef",
+      "surname": "hdjfgyhrg",
+      "number": "4657687978",
+      "week": "67",
+      "month": "567",
+      "id": 49
+    },
+    {
+      "name": "jhghjnkmjhg",
+      "surname": "nhbghbnjhbgf",
+      "number": "457686576",
+      "week": "4758",
+      "month": "53465768",
+      "id": 50
+    },
+    {
+      "name": "xfyhjdg",
+      "surname": "gbesdfvzsrd",
+      "number": "344566453423456",
+      "week": "32454",
+      "month": "434234",
+      "id": 51
+    },
+    {
+      "name": "asdrtfyghghr",
+      "surname": "mmhdgseerrsdhfhm",
+      "number": "43565765456352",
+      "week": "4324565",
+      "month": "345657",
+      "id": 52
     }
   ]
 }
